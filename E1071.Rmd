@@ -1,4 +1,13 @@
-#Libreria [e1072], Ejercicio Complementario al del Dia_82_6junio 
+---
+title: "E1071"
+author: "Daniel Felipe Villa Rengifo"
+date: "10/6/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 ```{r, eval=FALSE, include=TRUE}
 "Protocolo:
@@ -90,3 +99,6 @@ predicciones.m <- predict(m.e1071,Titanic_dataset)
 
 table(predicciones.m,Titanic_dataset$Survived)
 ```
+
+
+
