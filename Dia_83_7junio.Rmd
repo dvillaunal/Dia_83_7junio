@@ -100,5 +100,9 @@ predicciones.m <- predict(m.e1071,Titanic_dataset)
 table(predicciones.m,Titanic_dataset$Survived)
 ```
 
+```{r}
+library(knitr)
+purl("Dia_83_7junio.Rmd", "main.r")
+```
 
 
